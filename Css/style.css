@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,500;1,500;1,800&display=swap');
+
+/* font-family: 'Open Sans', sans-serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif; 
+    
+
+
+}
+img{
+    max-width: 100%;
+    display: block;
+} 
+main{
+   max-width: 950px;
+   margin: 0px auto;
+}
+
+/* ---------header start----------- */
+
+header{
+width: 100%;
+background-image: url(../images/dawn.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-color: rgba(26, 24, 24, 0.334);
+background-blend-mode: multiply;
+
+   
+   
+}
+.suv-header{
+   display: flex;
+   list-style-type: none;
+   
+   
+   
+}
+.suv-header .logo{
+   width: 20%;
+
+
+}
+.suv-header .logo h2{
+    width: 100%;
+    color: aliceblue;
+    padding: 20px;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 600;   
+}
+.suv-header .logo span{
+    font-size: 17px;
+}
+.suv-header .nav{
+  width: 80%;
+}
+.suv-header .suv-nav{
+    width: 100%;
+    
+    
+}
+.suv-nav ul{
+    display: flex;
+    list-style-type: none;
+    padding: 15px 20px;
+    justify-content: flex-end;
+
+    
+
+    
+}
+.suv-nav ul li{
+    padding: 10px;
+    
+}
+a:nth-child(7){
+    color: aliceblue;
+    text-decoration: none;
+    border: 2px white solid;
+    font-size: 20px;
+    border-radius: 35px;
+    padding: 10px;
+  
+}
+
+.suv-nav ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+}
+header .hading{
+    padding: 150px 0px;
+    text-align: center;
+
+}
+header .hading p{
+    color: aliceblue;
+    font-size: 20px;
+    font-style: italic;
+
+}
+header .hading span{
+    display: block;
+    border-bottom: 7px rgb(227, 32, 71) solid;
+    padding-top: 15px;
+    width: 15%;
+    margin: 0px auto;
+
+}
+header .hading h1{
+font-size: 30px;
+color: aliceblue;
+text-transform: uppercase;
+padding: 30px 0
+}
+header .hading a{
+    color: aliceblue;
+    text-decoration: none;
+    background-color: rgb(227, 32, 71);
+    padding: 10px 20px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    
+}
+
+/* ---------header end----------- */
+
+/* ---------one-section----------- */
+.one-section{
+    width: 100%;
+}
+.one-section .top{
+    padding: 30px;
+}
+.one-section .top h2{
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px 0;
+}
+.one-section .top span{
+    width: 15%;
+    height: 5px;
+    display: block;
+    background-color: rgb(227, 32, 71);
+    margin: 0px auto;
+    
+}
+.box{
+    width: 100%;
+    display: flex;
+}
+.suv-one-section{
+    width: 40%;
+    margin: 50px;
+    text-align: center;
+    
+}
+.suv-one-section img{
+    width: 100%;
+    height: 300px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 0px rgba(239, 207, 147, 0.63);
+}
+
+.suv-one-section h3{
+    padding: 20px 0;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.suv-one-section p{
+    text-align: justify;
+    padding: 0 0 20px;
+}
+.suv-one-section a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: aliceblue;
+    background-color: rgb(227, 32, 71);
+    padding: 10px;
+    border-radius: 35px;
+}
+/* ---------one-section end----------- */
+
+/* ---------two-section start----------- */
+
+.two-section{
+    display: flex;
+    width: 100%;
+    background-image: url(../images/father.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #165fdeba;
+    background-blend-mode: multiply;
+}
+.two-section .text{
+    width: 100%;
+    color: aliceblue;
+    padding: 100px 30px 100px 475px;
+    
+   
+    
+}
+.two-section .text h1{
+    font-size: 55px;
+    text-transform: uppercase;
+    
+}
+.two-section .text span{
+    width: 100px;
+    height: 5px;
+    display: block;
+    background-color: rgb(227, 32, 71);
+    margin: 10px 0;
+
+}
+.two-section .text p{
+    text-align: justify;
+    margin: 10px 0;
+}
+.two-section .text a{
+    color: aliceblue;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/* ---------two-section end----------- */
+
+
+/* ---------three-section start----------- */
+.three-section{
+    width: 100%;
+    display: flex;
+    padding: 100px 50px;
+    
+}
+.three-section .box-one{
+    width: 33%;
+    padding: 10px;
+}
+.three-section .box-one h2{
+    width: 100%;
+    font-size: 35px;
+    text-transform: uppercase;
+    
+}
+.three-section .box-one span{
+    width: 100px;
+    height: 5px;
+    background-color: rgb(227, 32, 71);
+    display: block;
+}
+.three-section .box-one p{
+    margin: 20px 0px;
+    text-align: justify;
+}
+.three-section .box-one a{
+    background-color: rgb(227, 32, 71);
+    color: aliceblue;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 35px;
+    text-transform: uppercase;
+}
+.three-section .box-two{
+    width: 33%;
+    
+}
+
+.img-one img{
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+
+}
+.three-section .box-two .img-two img{
+    width: 100%;
+    height: 400px;
+    padding: 15px;
+
+}
+
+/* ---------three-section end----------- */
+
+/* ---------Footer section start----------- */
+
+footer{
+    background-color: rgb(227, 32, 71);
+    padding: 50px;
+
+}
+footer h3{
+    text-align: center;
+    color: aliceblue;
+}
+
+/* ---------Footer section end----------- */
+
+
+
+
+
+
+
